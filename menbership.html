@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>excersice shop</title>
+<!-- I use Normalize.css, because it is a CSS library that makes the default styles of different browsers consistent across platforms. -->
+<link rel="stylesheet" href="resources/normalize.css">
+<!-- bootstrap (framework)-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<!-- my own css -->
+<link rel="stylesheet" href="css/membership.css">
+
+<!-- fontawesome -->
+<script src="https://kit.fontawesome.com/5b36ded5ed.js" crossorigin="anonymous"></script>
+
+<body>
+
+  <body>
+    <!-- header start -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <div class="header-logo">
+            <a href="#"><span>ML </span>Strength</a>
+          </div>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link " href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./service.html">Classes</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./menbership.html">Membership</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="./contact.html">Contact Us</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav>
+
+    </header>
+    <!-- header end -->
+
+    <div class="container">
+      <div class="title">Registration</div>
+      <div class="content">
+        <form action="#">
+          <div class="user-details">
+            <div class="input-box">
+              <span class="details">Full Name</span>
+              <input type="text" placeholder="Enter your name" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Username</span>
+              <input type="text" placeholder="Enter your username" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Email</span>
+              <input type="text" placeholder="Enter your email" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Phone Number</span>
+              <input type="text" placeholder="Enter your number" required>
+            </div>
+            <div class="input-box">
+              <span class="details">Postcode</span>
+              <input type="text" placeholder="Enter your postcode" required>
+            </div>
+
+            <div class="input-box">
+              <label for="classes"> <span class="details">Interest Class</span></label>
+              <select id="class" name="class">
+                <option>Select your classes</option>
+                <option>Zumba</option>
+                <option>Pilates</option>
+                <option>Boxing</option>
+                <option>Yoga</option>
+              </select>
+            </div>
+
+
+          </div>
+          <div class="gender-details">
+
+            <span class="gender-title">Gender</span>
+            <input type="radio" name="gender" id="dot-1">
+            <input type="radio" name="gender" id="dot-2">
+            <input type="radio" name="gender" id="dot-3">
+            <div class="category">
+              <label for="dot-1">
+                <span class="dot one"></span>
+                <span class="gender">Male</span>
+              </label>
+              <label for="dot-2">
+                <span class="dot two"></span>
+                <span class="gender">Female</span>
+              </label>
+              <label for="dot-3">
+                <span class="dot three"></span>
+                <span class="gender">Prefer not to say</span>
+              </label>
+            </div>
+          </div>
+          <div class="button">
+            <input type="submit" value="Get 1 Week Free Pass">
+          </div>
+        </form>
+        <div class="help">Need help? <a href="./contact.html">Click here</a></div>
+      </div>
+    </div>
+
+
+      <!-- footer -->
+      <footer class="footer center">
+
+        <p class="text">Made with love by Ocean</p>
+
+        <img class="footer-img" src="image/plant.png" alt="footer">
+      </footer>
+      <!-- end of footer -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
